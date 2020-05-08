@@ -3,7 +3,7 @@
 
 <head>
   @@include("partials/head.html", {
-  "title": "Aircrft"
+  "title": "AIRCRFT"
   })
 </head>
 
@@ -79,7 +79,7 @@
 
               <!-- Title -->
               <h1 class="header-title">
-                Startup network
+                The startup network
               </h1>
 
             </div>
@@ -95,10 +95,17 @@
                   Request aircrft invite
                 </a> -->
 
-              <!-- All-access Pass 5.7.2020 Button -->
+              @@if (demoMode) {
+              <!-- Customize -->
+              <a href="#modalAllAccessPass1" class="btn btn-primary d-block d-md-inline-block lift" data-toggle="modal">
+              <i class="fe fe-sliders mr-2"></i> All-access pass
+              </a>
+              }
+              
+              <!-- All-access Pass 5.7.2020 Button 
               <a href="#modalAllAccessPass1" class="btn btn-primary d-block d-md-inline-block lift">
                 Memberships
-              </a>
+              </a> -->
 
             </div>
           </div> <!-- / .row -->
